@@ -8,3 +8,15 @@ export const NUM_COLS = HEIGHT / Grid_Size;
  export const createEmptyGrid = () => Array.from({ length: NUM_ROWS }, () => Array(NUM_COLS).fill(0));
   
 
+export const dirMatrix = [
+    [0, 1],
+    [1, 1],
+    [1, 0],
+    [1, -1],
+    [0, -1],
+    [-1, -1],
+    [-1, 0],
+    [-1, 1],
+    
+    
+]
